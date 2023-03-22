@@ -101,11 +101,7 @@ We use [acme.sh](https://github.com/acmesh-official/acme.sh) to generate certifi
 
 acme.sh is an open source automated certificate signing tool,
 
-Enter the configuration warehouse ops.soft, run `./ssl.sh` , and a `conf` folder will be created in the upper directory.
-
-The directory structure is as follows:
-
-![](https://pub-b8db533c86124200a9d799bf3ba88099.r2.dev/2023/03/W2occKn.webp)
+Enter the configuration warehouse ops.soft, run `./ssl.sh` , and a `conf` folder will be created in **the upper directory** .
 
 Find your DNS provider from [acme.sh dnsapi](https://github.com/acmesh-official/acme.sh/wiki/dnsapi) , edit `conf/conf.sh` .
 
